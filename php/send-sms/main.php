@@ -9,7 +9,7 @@ $message = 'Your message';
 $recipients = array('Your phone number');
 
 if (empty($username)) {
-    die('Missing MobileResponse API password. Did you forget to set the MOBILERESPONSE_API_PASSWORD environment variable?' . PHP_EOL);
+    die('Missing MobileResponse API username. Did you forget to set the MOBILERESPONSE_API_USERNAME environment variable?' . PHP_EOL);
 }
 
 if (empty($password)) {
